@@ -1,1 +1,8 @@
-# mp4-conversation-summarizer
+# MP4ファイルの会話の内容を要約する (日本語版)
+
+### 使い方
+1. Google Colaboratoryでmp4_conversation_summarizer.ipynbを開く
+2. [ランタイム] -> [ランタイムのタイプを変更] -> [ハードウェア アクセラレータ] -> **GPU**を選択
+3. 最初のセルにOpenAIのAPIキーを入力
+4. 最初のセル〜このセルまでをShift + Enterで実行すると動画のアップロードを促される
+5. 動画をアップロードすると文字起こし + 要約が行われる
